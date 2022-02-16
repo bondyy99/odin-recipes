@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+    height:calc(100vh - 80px);
+}
+
+nav section {
+    flex:1 1 auto;
+    display:flex;
+}
+
+.first-row a {
+    flex:1;
+}
+
+.second-row a {
+    flex:1;
+}
+
+.butt{
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+#lasagna {
+    background-image: url("recipes/recipe-images/lasagna.jpeg");
+    background-size: cover;
+}
+
+#pizza {
+    background-image: url("recipes/recipe-images/pizza.jpeg");
+    background-size: cover;
+}
+
+#calzone {
+    background-image: url("recipes/recipe-images/calzone.jpeg");
+    background-size: cover;
+}
+
+#bolognese {
+    background-image: url("recipes/recipe-images/bolognese.jpeg");
+    background-size: cover;
+}
