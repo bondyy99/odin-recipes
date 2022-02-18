@@ -126,11 +126,15 @@ footer section {
 }
 
 .signature p {
-    flex: 1;
-    color: #00FF5E;
+    display: inline;
     font-weight: bold;
     font-size: 12px;
     padding-top: 5px;
+}
+
+#signoff {
+    color: #00FF5E;
+    flex: 1;
 }
 
 ::selection {
