@@ -79,9 +79,39 @@ footer {
 
 }
 
-footer section {
+footer .footer-section {
     padding: 10px;
     border: 1px solid black;
+}
+
+#footer1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+#msgmepls {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-column {
+    display: inline;
+}
+
+.footer-column {
+    padding: left 100px;
+}
+
+.inner-column p {
+    display:table;
+}
+
+.inner-column img {
+    display:table;
+}
+
+.inner-column a {
+    display:table;
 }
 
 #footer2 {
@@ -91,6 +121,7 @@ footer section {
 
 #footer2 p {
     flex: 1;
+    width:auto;
 }
 
 #footer2 a {
@@ -133,7 +164,8 @@ footer section {
     display: inline;
     font-weight: bold;
     font-size: 12px;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 #signoff {
@@ -143,4 +175,8 @@ footer section {
 
 ::selection {
     background: #d5d5d5;
+}
+
+#fam {
+    height: 40px;
 }
