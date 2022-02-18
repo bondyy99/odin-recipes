@@ -6,68 +6,50 @@
 }
 
 h1 {
-    display:block;
-    text-align: center;
-    padding:20px;
+    border-bottom: 1px solid black;
 }
 
-nav {
+.everything {
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.intro {
     display:flex;
-    flex-direction: column;
-    height:calc(100vh);
+    border: 1px solid black;
+    border-top: 0px;
 }
 
-nav section {
-    flex:1 1 auto;
-    display:flex;
-}
-
-.first-row a {
-    flex:1;
-    height:100%;
-    border-top: 4px solid black;
-}
-
-.second-row a {
-    flex:1;
-    height:100%;
-}
-
-.butt{
-    padding: 10px;
-    text-align: center;
+.intro img {
     flex: 1;
 }
 
-nav a {
-    color: black;
-    text-decoration: none;
-    border: 2px solid black;
+.intro .ingredients {
+    flex: 1;
+    border-left: 1px solid black;
 }
 
-nav a:hover {
-    color:#00FF5E;
-    font-weight: bold;
+.intro .ingredients .text {
+    align-items: center;
 }
 
-#lasagna {
-    background-image: url("recipes/recipe-images/lasagna.jpeg");
-    background-size: cover;
+.text ul {
+    padding-left:20px
 }
 
-#pizza {
-    background-image: url("recipes/recipe-images/pizza.jpeg");
-    background-size: cover;
+ol {
+    padding-left: 50px;
 }
 
-#calzone {
-    background-image: url("recipes/recipe-images/calzone.jpeg");
-    background-size: cover;
+.description {
+    border: 1px solid black;
+    border-top: 0px;
 }
 
-#bolognese {
-    background-image: url("recipes/recipe-images/bolognese.jpeg");
-    background-size: cover;
+.steps {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 footer {
